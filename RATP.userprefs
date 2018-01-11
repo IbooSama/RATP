@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{C9FE595D-3837-42CD-929B-0775C12FA284}|" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RATP/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="RATP/Controllers/HomeController.cs" Line="39" Column="30" />
+      <File FileName="RATP/Models/Line.cs" Line="6" Column="29" />
+      <File FileName="RATP/Views/Home/Index.cshtml" Line="10" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.RATP PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
