@@ -13121,17 +13121,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kratos/tests/RATP/RATP/RATP.csproj",
+      "projectUniqueName": "/Users/kratos/ESILV/RATP/RATP/RATP.csproj",
       "projectName": "RATP",
-      "projectPath": "/Users/kratos/tests/RATP/RATP/RATP.csproj",
+      "projectPath": "/Users/kratos/ESILV/RATP/RATP/RATP.csproj",
       "packagesPath": "/Users/kratos/.nuget/packages/",
-      "outputPath": "/Users/kratos/tests/RATP/RATP/obj/",
+      "outputPath": "/Users/kratos/ESILV/RATP/RATP/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/kratos/.nuget/NuGet/NuGet.Config"
+        "/Users/kratos/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -13153,18 +13153,19 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.NETCore.App": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "2.0",
+            "autoReferenced": true
+          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "[2.0.0, )"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "[2.0.0, )",
-            "autoReferenced": true
+            "version": "2.0.0"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "2.0.0"
           }
         },
         "imports": [

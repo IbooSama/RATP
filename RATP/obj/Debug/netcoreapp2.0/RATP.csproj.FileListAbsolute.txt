@@ -9,3 +9,13 @@
 /Users/kratos/tests/RATP/RATP/obj/Debug/netcoreapp2.0/RATP.AssemblyInfo.cs
 /Users/kratos/tests/RATP/RATP/obj/Debug/netcoreapp2.0/RATP.dll
 /Users/kratos/tests/RATP/RATP/obj/Debug/netcoreapp2.0/RATP.pdb
+/Users/kratos/ESILV/RATP/RATP/bin/Debug/netcoreapp2.0/RATP.deps.json
+/Users/kratos/ESILV/RATP/RATP/bin/Debug/netcoreapp2.0/RATP.runtimeconfig.json
+/Users/kratos/ESILV/RATP/RATP/bin/Debug/netcoreapp2.0/RATP.runtimeconfig.dev.json
+/Users/kratos/ESILV/RATP/RATP/bin/Debug/netcoreapp2.0/RATP.dll
+/Users/kratos/ESILV/RATP/RATP/bin/Debug/netcoreapp2.0/RATP.pdb
+/Users/kratos/ESILV/RATP/RATP/obj/Debug/netcoreapp2.0/RATP.csproj.CoreCompileInputs.cache
+/Users/kratos/ESILV/RATP/RATP/obj/Debug/netcoreapp2.0/RATP.AssemblyInfoInputs.cache
+/Users/kratos/ESILV/RATP/RATP/obj/Debug/netcoreapp2.0/RATP.AssemblyInfo.cs
+/Users/kratos/ESILV/RATP/RATP/obj/Debug/netcoreapp2.0/RATP.dll
+/Users/kratos/ESILV/RATP/RATP/obj/Debug/netcoreapp2.0/RATP.pdb

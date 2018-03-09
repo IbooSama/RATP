@@ -18,6 +18,12 @@
     <None Remove="Views\EmptyHTMLFile.html" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\HelloWorld\" />
+    <Content Remove="Views\Home\Contact.cshtml" />
+    <Content Remove="Views\Home\About.cshtml" />
+    <Content Remove="Views\HelloWorld\Index.cshtml" />
+    <Content Remove="Views\HelloWorld\Welcome.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\HelloWorldController.cs" />
   </ItemGroup>
 </Project>
