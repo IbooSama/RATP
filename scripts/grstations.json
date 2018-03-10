@@ -1,0 +1,1592 @@
+[
+    {
+        "line": "1",
+        "stations": [
+            {
+                "slug": "chateau+de+vincennes",
+                "name": "Chateau de Vincennes"
+            },
+            {
+                "slug": "berault",
+                "name": "Berault"
+            },
+            {
+                "slug": "saint+mande",
+                "name": "Saint-Mande"
+            },
+            {
+                "slug": "porte+de+vincennes",
+                "name": "Porte de Vincennes"
+            },
+            {
+                "slug": "nation",
+                "name": "Nation"
+            },
+            {
+                "slug": "reuilly+diderot",
+                "name": "Reuilly-Diderot"
+            },
+            {
+                "slug": "gare+de+lyon",
+                "name": "Gare de Lyon"
+            },
+            {
+                "slug": "bastille",
+                "name": "Bastille"
+            },
+            {
+                "slug": "saint+paul+(le+marais)",
+                "name": "Saint-Paul (Le Marais)"
+            },
+            {
+                "slug": "hotel+de+ville",
+                "name": "Hotel de Ville"
+            },
+            {
+                "slug": "chatelet",
+                "name": "Chatelet"
+            },
+            {
+                "slug": "louvre+rivoli",
+                "name": "Louvre-Rivoli"
+            },
+            {
+                "slug": "palais+royal+(musee+du+louvre)",
+                "name": "Palais-Royal (Musee du Louvre)"
+            },
+            {
+                "slug": "tuileries",
+                "name": "Tuileries"
+            },
+            {
+                "slug": "concorde",
+                "name": "Concorde"
+            },
+            {
+                "slug": "champs+elysees+clemenceau",
+                "name": "Champs-Elysees-Clemenceau"
+            },
+            {
+                "slug": "franklin+roosevelt",
+                "name": "Franklin-Roosevelt"
+            },
+            {
+                "slug": "george+v",
+                "name": "George V"
+            },
+            {
+                "slug": "charles+de+gaulle+etoile",
+                "name": "Charles de Gaulle-Etoile"
+            },
+            {
+                "slug": "argentine",
+                "name": "Argentine"
+            },
+            {
+                "slug": "porte+maillot",
+                "name": "Porte Maillot"
+            },
+            {
+                "slug": "les+sablons+(jardin+d'acclimatation)",
+                "name": "Les Sablons (Jardin d'acclimatation)"
+            },
+            {
+                "slug": "pont+de+neuilly",
+                "name": "Pont de Neuilly"
+            },
+            {
+                "slug": "esplanade+de+la+defense",
+                "name": "Esplanade de la Defense"
+            },
+            {
+                "slug": "la+defense+(grande+arche)",
+                "name": "La Defense (Grande Arche)"
+            }
+        ]
+    },
+    {
+        "line": "2",
+        "stations": [{
+            "slug": "nation",
+            "name": "Nation"
+        },
+        {
+            "slug": "avron",
+            "name": "Avron"
+        },
+        {
+            "slug": "alexandre+dumas",
+            "name": "Alexandre-Dumas"
+        },
+        {
+            "slug": "philippe+auguste",
+            "name": "Philippe Auguste"
+        },
+        {
+            "slug": "pere+lachaise",
+            "name": "Pere-Lachaise"
+        },
+        {
+            "slug": "menilmontant",
+            "name": "Menilmontant"
+        },
+        {
+            "slug": "couronnes",
+            "name": "Couronnes"
+        },
+        {
+            "slug": "belleville",
+            "name": "Belleville"
+        },
+        {
+            "slug": "colonel+fabien",
+            "name": "Colonel Fabien"
+        },
+        {
+            "slug": "jaures",
+            "name": "Jaures"
+        },
+        {
+            "slug": "stalingrad",
+            "name": "Stalingrad"
+        },
+        {
+            "slug": "la+chapelle",
+            "name": "La Chapelle"
+        },
+        {
+            "slug": "barbes+rochechouart",
+            "name": "Barbes-Rochechouart"
+        },
+        {
+            "slug": "anvers",
+            "name": "Anvers"
+        },
+        {
+            "slug": "pigalle",
+            "name": "Pigalle"
+        },
+        {
+            "slug": "blanche",
+            "name": "Blanche"
+        },
+        {
+            "slug": "place+de+clichy",
+            "name": "Place de Clichy"
+        },
+        {
+            "slug": "rome",
+            "name": "Rome"
+        },
+        {
+            "slug": "villiers",
+            "name": "Villiers"
+        },
+        {
+            "slug": "monceau",
+            "name": "Monceau"
+        },
+        {
+            "slug": "courcelles",
+            "name": "Courcelles"
+        },
+        {
+            "slug": "ternes",
+            "name": "Ternes"
+        },
+        {
+            "slug": "charles+de+gaulle+etoile",
+            "name": "Charles de Gaulle-Etoile"
+        },
+        {
+            "slug": "victor+hugo",
+            "name": "Victor Hugo"
+        },
+        {
+            "slug": "porte+dauphine+(marechal+de+lattre+de+tassigny)",
+            "name": "Porte Dauphine (Marechal de Lattre de Tassigny)"
+        }
+    ]
+},
+{
+    "line": "3",
+    "stations": [
+        {
+            "slug": "gallieni+(parc+de+bagnolet)",
+            "name": "Gallieni (Parc de Bagnolet)"
+        },
+        {
+            "slug": "porte+de+bagnolet",
+            "name": "Porte de Bagnolet"
+        },
+        {
+            "slug": "gambetta",
+            "name": "Gambetta"
+        },
+        {
+            "slug": "pere+lachaise",
+            "name": "Pere-Lachaise"
+        },
+        {
+            "slug": "rue+saint+maur",
+            "name": "Rue Saint-Maur"
+        },
+        {
+            "slug": "parmentier",
+            "name": "Parmentier"
+        },
+        {
+            "slug": "republique",
+            "name": "Republique"
+        },
+        {
+            "slug": "temple",
+            "name": "Temple"
+        },
+        {
+            "slug": "arts+et+metiers",
+            "name": "Arts-et-Metiers"
+        },
+        {
+            "slug": "reaumur+sebastopol",
+            "name": "Reaumur-Sebastopol"
+        },
+        {
+            "slug": "sentier",
+            "name": "Sentier"
+        },
+        {
+            "slug": "bourse",
+            "name": "Bourse"
+        },
+        {
+            "slug": "quatre+septembre",
+            "name": "Quatre Septembre"
+        },
+        {
+            "slug": "opera",
+            "name": "Opera"
+        },
+        {
+            "slug": "havre+caumartin",
+            "name": "Havre-Caumartin"
+        },
+        {
+            "slug": "saint+lazare",
+            "name": "Saint-Lazare"
+        },
+        {
+            "slug": "europe",
+            "name": "Europe"
+        },
+        {
+            "slug": "villiers",
+            "name": "Villiers"
+        },
+        {
+            "slug": "malesherbes",
+            "name": "Malesherbes"
+        },
+        {
+            "slug": "wagram",
+            "name": "Wagram"
+        },
+        {
+            "slug": "pereire",
+            "name": "Pereire"
+        },
+        {
+            "slug": "porte+de+champerret",
+            "name": "Porte de Champerret"
+        },
+        {
+            "slug": "louise+michel",
+            "name": "Louise Michel"
+        },
+        {
+            "slug": "anatole+france",
+            "name": "Anatole-France"
+        },
+        {
+            "slug": "pont+de+levallois+becon",
+            "name": "Pont de Levallois-Becon"
+        }
+    ]
+},
+{
+    "line": "4",
+    "stations": [
+        {
+            "slug": "porte+de+clignancourt",
+            "name": "Porte de Clignancourt"
+        },
+        {
+            "slug": "simplon",
+            "name": "Simplon"
+        },
+        {
+            "slug": "marcadet+poissonniers",
+            "name": "Marcadet-Poissonniers"
+        },
+        {
+            "slug": "chateau+rouge",
+            "name": "Chateau Rouge"
+        },
+        {
+            "slug": "barbes+rochechouart",
+            "name": "Barbes-Rochechouart"
+        },
+        {
+            "slug": "gare+du+nord",
+            "name": "Gare du Nord"
+        },
+        {
+            "slug": "gare+de+l'est+(verdun)",
+            "name": "Gare de l'Est (Verdun)"
+        },
+        {
+            "slug": "chateau+d'eau",
+            "name": "Chateau d'Eau"
+        },
+        {
+            "slug": "strasbourg+saint+denis",
+            "name": "Strasbourg-Saint-Denis"
+        },
+        {
+            "slug": "reaumur+sebastopol",
+            "name": "Reaumur-Sebastopol"
+        },
+        {
+            "slug": "etienne+marcel",
+            "name": "Etienne Marcel"
+        },
+        {
+            "slug": "les+halles",
+            "name": "Les Halles"
+        },
+        {
+            "slug": "chatelet",
+            "name": "Chatelet"
+        },
+        {
+            "slug": "cite",
+            "name": "Cite"
+        },
+        {
+            "slug": "saint+michel",
+            "name": "Saint-Michel"
+        },
+        {
+            "slug": "odeon",
+            "name": "Odeon"
+        },
+        {
+            "slug": "saint+germain+des+pres",
+            "name": "Saint-Germain des Pres"
+        },
+        {
+            "slug": "saint+sulpice",
+            "name": "Saint-Sulpice"
+        },
+        {
+            "slug": "saint+placide",
+            "name": "Saint-Placide"
+        },
+        {
+            "slug": "montparnasse+bienvenue",
+            "name": "Montparnasse-Bienvenue"
+        },
+        {
+            "slug": "vavin",
+            "name": "Vavin"
+        },
+        {
+            "slug": "raspail",
+            "name": "Raspail"
+        },
+        {
+            "slug": "denfert+rochereau",
+            "name": "Denfert-Rochereau"
+        },
+        {
+            "slug": "mouton+duvernet",
+            "name": "Mouton-Duvernet"
+        },
+        {
+            "slug": "alesia",
+            "name": "Alesia"
+        },
+        {
+            "slug": "porte+d'orleans+(general+leclerc)",
+            "name": "Porte d'Orleans (General Leclerc)"
+        },
+        {
+            "slug": "mairie+de+montrouge",
+            "name": "Mairie de Montrouge"
+        }
+    ]
+},
+{
+    "line": "5",
+    "stations": [
+        {
+            "slug": "bobigny+pablo+picasso",
+            "name": "Bobigny-Pablo-Picasso"
+        },
+        {
+            "slug": "bobigny+pantin+(raymond+queneau)",
+            "name": "Bobigny-Pantin (Raymond Queneau)"
+        },
+        {
+            "slug": "eglise+de+pantin",
+            "name": "Eglise de Pantin"
+        },
+        {
+            "slug": "hoche",
+            "name": "Hoche"
+        },
+        {
+            "slug": "porte+de+pantin",
+            "name": "Porte de Pantin"
+        },
+        {
+            "slug": "ourcq",
+            "name": "Ourcq"
+        },
+        {
+            "slug": "laumiere",
+            "name": "Laumiere"
+        },
+        {
+            "slug": "jaures",
+            "name": "Jaures"
+        },
+        {
+            "slug": "stalingrad",
+            "name": "Stalingrad"
+        },
+        {
+            "slug": "gare+du+nord",
+            "name": "Gare du Nord"
+        },
+        {
+            "slug": "gare+de+l'est+(verdun)",
+            "name": "Gare de l'Est (Verdun)"
+        },
+        {
+            "slug": "jacques+bonsergent",
+            "name": "Jacques-Bonsergent"
+        },
+        {
+            "slug": "republique",
+            "name": "Republique"
+        },
+        {
+            "slug": "oberkampf",
+            "name": "Oberkampf"
+        },
+        {
+            "slug": "richard+lenoir",
+            "name": "Richard-Lenoir"
+        },
+        {
+            "slug": "breguet+sabin",
+            "name": "Breguet-Sabin"
+        },
+        {
+            "slug": "bastille",
+            "name": "Bastille"
+        },
+        {
+            "slug": "quai+de+la+rapee",
+            "name": "Quai de la Rapee"
+        },
+        {
+            "slug": "gare+d'austerlitz",
+            "name": "Gare d'Austerlitz"
+        },
+        {
+            "slug": "saint+marcel",
+            "name": "Saint-Marcel"
+        },
+        {
+            "slug": "campo+formio",
+            "name": "Campo-Formio"
+        },
+        {
+            "slug": "place+d'italie",
+            "name": "Place d'Italie"
+        }
+    ]
+},
+{
+    "line": "6",
+    "stations": [
+        {
+            "slug": "nation",
+            "name": "Nation"
+        },
+        {
+            "slug": "picpus",
+            "name": "Picpus"
+        },
+        {
+            "slug": "bel+air",
+            "name": "Bel-Air"
+        },
+        {
+            "slug": "daumesnil+(felix+eboue)",
+            "name": "Daumesnil (Felix Eboue)"
+        },
+        {
+            "slug": "dugommier",
+            "name": "Dugommier"
+        },
+        {
+            "slug": "bercy",
+            "name": "Bercy"
+        },
+        {
+            "slug": "quai+de+la+gare",
+            "name": "Quai de la Gare"
+        },
+        {
+            "slug": "chevaleret",
+            "name": "Chevaleret"
+        },
+        {
+            "slug": "nationale",
+            "name": "Nationale"
+        },
+        {
+            "slug": "place+d'italie",
+            "name": "Place d'Italie"
+        },
+        {
+            "slug": "corvisart",
+            "name": "Corvisart"
+        },
+        {
+            "slug": "glaciere",
+            "name": "Glaciere"
+        },
+        {
+            "slug": "saint+jacques",
+            "name": "Saint-Jacques"
+        },
+        {
+            "slug": "denfert+rochereau",
+            "name": "Denfert-Rochereau"
+        },
+        {
+            "slug": "raspail",
+            "name": "Raspail"
+        },
+        {
+            "slug": "edgar+quinet",
+            "name": "Edgar-Quinet"
+        },
+        {
+            "slug": "montparnasse+bienvenue",
+            "name": "Montparnasse-Bienvenue"
+        },
+        {
+            "slug": "pasteur",
+            "name": "Pasteur"
+        },
+        {
+            "slug": "sevres+lecourbe",
+            "name": "Sevres-Lecourbe"
+        },
+        {
+            "slug": "cambronne",
+            "name": "Cambronne"
+        },
+        {
+            "slug": "la+motte+picquet+grenelle",
+            "name": "La Motte-Picquet-Grenelle"
+        },
+        {
+            "slug": "dupleix",
+            "name": "Dupleix"
+        },
+        {
+            "slug": "bir+hakeim+(grenelle)",
+            "name": "Bir-Hakeim (Grenelle)"
+        },
+        {
+            "slug": "passy",
+            "name": "Passy"
+        },
+        {
+            "slug": "trocadero",
+            "name": "Trocadero"
+        },
+        {
+            "slug": "boissiere",
+            "name": "Boissiere"
+        },
+        {
+            "slug": "kleber",
+            "name": "Kleber"
+        },
+        {
+            "slug": "charles+de+gaulle+etoile",
+            "name": "Charles de Gaulle-Etoile"
+        }
+    ]
+},
+{
+    "line": "7",
+    "stations": [
+        {
+            "slug": "la+courneuve+8+mai+1945",
+            "name": "La Courneuve-8-Mai-1945"
+        },
+        {
+            "slug": "fort+d'aubervilliers",
+            "name": "Fort d'Aubervilliers"
+        },
+        {
+            "slug": "aubervilliers+pantin+(4+chemins)",
+            "name": "Aubervilliers Pantin (4 Chemins)"
+        },
+        {
+            "slug": "porte+de+la+villette",
+            "name": "Porte de la Villette"
+        },
+        {
+            "slug": "corentin+cariou",
+            "name": "Corentin-Cariou"
+        },
+        {
+            "slug": "crimee",
+            "name": "Crimee"
+        },
+        {
+            "slug": "riquet",
+            "name": "Riquet"
+        },
+        {
+            "slug": "stalingrad",
+            "name": "Stalingrad"
+        },
+        {
+            "slug": "louis+blanc",
+            "name": "Louis Blanc"
+        },
+        {
+            "slug": "chateau+landon",
+            "name": "Chateau Landon"
+        },
+        {
+            "slug": "gare+de+l'est+(verdun)",
+            "name": "Gare de l'Est (Verdun)"
+        },
+        {
+            "slug": "poissonniere",
+            "name": "Poissonniere"
+        },
+        {
+            "slug": "cadet",
+            "name": "Cadet"
+        },
+        {
+            "slug": "le+peletier",
+            "name": "Le Peletier"
+        },
+        {
+            "slug": "chaussee+d'antin+(la+fayette)",
+            "name": "Chaussee d'Antin (La Fayette)"
+        },
+        {
+            "slug": "opera",
+            "name": "Opera"
+        },
+        {
+            "slug": "pyramides",
+            "name": "Pyramides"
+        },
+        {
+            "slug": "palais+royal+(musee+du+louvre)",
+            "name": "Palais-Royal (Musee du Louvre)"
+        },
+        {
+            "slug": "pont+neuf",
+            "name": "Pont Neuf"
+        },
+        {
+            "slug": "chatelet",
+            "name": "Chatelet"
+        },
+        {
+            "slug": "pont+marie+(cite+des+arts)",
+            "name": "Pont Marie (Cite des Arts)"
+        },
+        {
+            "slug": "sully+morland",
+            "name": "Sully-Morland"
+        },
+        {
+            "slug": "jussieu",
+            "name": "Jussieu"
+        },
+        {
+            "slug": "place+monge+(jardin+des+plantes)",
+            "name": "Place Monge (Jardin des Plantes)"
+        },
+        {
+            "slug": "censier+daubenton",
+            "name": "Censier-Daubenton"
+        },
+        {
+            "slug": "les+gobelins",
+            "name": "Les Gobelins"
+        },
+        {
+            "slug": "place+d'italie",
+            "name": "Place d'Italie"
+        },
+        {
+            "slug": "tolbiac",
+            "name": "Tolbiac"
+        },
+        {
+            "slug": "maison+blanche",
+            "name": "Maison Blanche"
+        },
+        {
+            "slug": "porte+d'italie",
+            "name": "Porte d'Italie"
+        },
+        {
+            "slug": "porte+de+choisy",
+            "name": "Porte de Choisy"
+        },
+        {
+            "slug": "porte+d'ivry",
+            "name": "Porte d'Ivry"
+        },
+        {
+            "slug": "pierre+et+marie+curie",
+            "name": "Pierre et Marie Curie"
+        },
+        {
+            "slug": "mairie+d'ivry",
+            "name": "Mairie d'Ivry"
+        },
+        {
+            "slug": "le+kremlin+bicetre",
+            "name": "Le Kremlin-Bicetre"
+        },
+        {
+            "slug": "villejuif+leo+lagrange",
+            "name": "Villejuif-Leo Lagrange"
+        },
+        {
+            "slug": "villejuif+paul+vaillant+couturier+(hopital+paul+brousse)",
+            "name": "Villejuif-Paul Vaillant Couturier (Hopital Paul Brousse)"
+        },
+        {
+            "slug": "villejuif+louis+aragon",
+            "name": "Villejuif-Louis Aragon"
+        }
+    ]
+},
+{
+    "line": "7b",
+    "stations": [
+        {
+            "slug": "pre+saint+gervais",
+            "name": "Pre-Saint-Gervais"
+        },
+        {
+            "slug": "danube",
+            "name": "Danube"
+        },
+        {
+            "slug": "botzaris",
+            "name": "Botzaris"
+        },
+        {
+            "slug": "buttes+chaumont",
+            "name": "Buttes-Chaumont"
+        },
+        {
+            "slug": "bolivar",
+            "name": "Bolivar"
+        },
+        {
+            "slug": "jaures",
+            "name": "Jaures"
+        },
+        {
+            "slug": "louis+blanc",
+            "name": "Louis Blanc"
+        },
+        {
+            "slug": "place+des+fetes",
+            "name": "Place des Fetes"
+        }
+    ]
+},
+{
+    "line": "8",
+    "stations": [
+        {
+            "slug": "balard",
+            "name": "Balard"
+        },
+        {
+            "slug": "lourmel",
+            "name": "Lourmel"
+        },
+        {
+            "slug": "boucicaut",
+            "name": "Boucicaut"
+        },
+        {
+            "slug": "felix+faure",
+            "name": "Felix Faure"
+        },
+        {
+            "slug": "commerce",
+            "name": "Commerce"
+        },
+        {
+            "slug": "la+motte+picquet+grenelle",
+            "name": "La Motte-Picquet-Grenelle"
+        },
+        {
+            "slug": "ecole+militaire",
+            "name": "Ecole Militaire"
+        },
+        {
+            "slug": "la+tour+maubourg",
+            "name": "La Tour-Maubourg"
+        },
+        {
+            "slug": "invalides",
+            "name": "Invalides"
+        },
+        {
+            "slug": "concorde",
+            "name": "Concorde"
+        },
+        {
+            "slug": "madeleine",
+            "name": "Madeleine"
+        },
+        {
+            "slug": "opera",
+            "name": "Opera"
+        },
+        {
+            "slug": "richelieu+drouot",
+            "name": "Richelieu-Drouot"
+        },
+        {
+            "slug": "grands+boulevards",
+            "name": "Grands Boulevards"
+        },
+        {
+            "slug": "bonne+nouvelle",
+            "name": "Bonne Nouvelle"
+        },
+        {
+            "slug": "strasbourg+saint+denis",
+            "name": "Strasbourg-Saint-Denis"
+        },
+        {
+            "slug": "republique",
+            "name": "Republique"
+        },
+        {
+            "slug": "filles+du+calvaire",
+            "name": "Filles du Calvaire"
+        },
+        {
+            "slug": "saint+sebastien+froissart",
+            "name": "Saint-Sebastien-Froissart"
+        },
+        {
+            "slug": "chemin+vert",
+            "name": "Chemin Vert"
+        },
+        {
+            "slug": "bastille",
+            "name": "Bastille"
+        },
+        {
+            "slug": "ledru+rollin",
+            "name": "Ledru-Rollin"
+        },
+        {
+            "slug": "faidherbe+chaligny",
+            "name": "Faidherbe-Chaligny"
+        },
+        {
+            "slug": "reuilly+diderot",
+            "name": "Reuilly-Diderot"
+        },
+        {
+            "slug": "montgallet",
+            "name": "Montgallet"
+        },
+        {
+            "slug": "daumesnil+(felix+eboue)",
+            "name": "Daumesnil (Felix Eboue)"
+        },
+        {
+            "slug": "michel+bizot",
+            "name": "Michel Bizot"
+        },
+        {
+            "slug": "porte+doree",
+            "name": "Porte Doree"
+        },
+        {
+            "slug": "porte+de+charenton",
+            "name": "Porte de Charenton"
+        },
+        {
+            "slug": "liberte",
+            "name": "Liberte"
+        },
+        {
+            "slug": "charenton+ecoles",
+            "name": "Charenton-Ecoles"
+        },
+        {
+            "slug": "ecole+veterinaire+de+maisons+alfort",
+            "name": "Ecole Veterinaire de Maisons-Alfort"
+        },
+        {
+            "slug": "maisons+alfort+stade",
+            "name": "Maisons-Alfort-Stade"
+        },
+        {
+            "slug": "maisons+alfort+les+juilliottes",
+            "name": "Maisons-Alfort-Les Juilliottes"
+        },
+        {
+            "slug": "creteil+l'echat+(hopital+henri+mondor)",
+            "name": "Creteil-L'Echat (Hopital Henri Mondor)"
+        },
+        {
+            "slug": "creteil+universite",
+            "name": "Creteil-Universite"
+        },
+        {
+            "slug": "creteil+prefecture+(hotel+de+ville)",
+            "name": "Creteil-Prefecture (Hotel de Ville)"
+        },
+        {
+            "slug": "pointe+du+lac",
+            "name": "Pointe du Lac"
+        }
+    ]
+},
+{
+    "line": "9",
+    "stations": [
+        {
+            "slug": "pont+de+sevres",
+            "name": "Pont de Sevres"
+        },
+        {
+            "slug": "billancourt",
+            "name": "Billancourt"
+        },
+        {
+            "slug": "marcel+sembat",
+            "name": "Marcel Sembat"
+        },
+        {
+            "slug": "porte+de+saint+cloud",
+            "name": "Porte de Saint-Cloud"
+        },
+        {
+            "slug": "exelmans",
+            "name": "Exelmans"
+        },
+        {
+            "slug": "michel+ange+molitor",
+            "name": "Michel-Ange-Molitor"
+        },
+        {
+            "slug": "michel+ange+auteuil",
+            "name": "Michel-Ange-Auteuil"
+        },
+        {
+            "slug": "jasmin",
+            "name": "Jasmin"
+        },
+        {
+            "slug": "ranelagh",
+            "name": "Ranelagh"
+        },
+        {
+            "slug": "la+muette",
+            "name": "La Muette"
+        },
+        {
+            "slug": "rue+de+la+pompe+(avenue+georges+mandel)",
+            "name": "Rue de la Pompe (Avenue Georges Mandel)"
+        },
+        {
+            "slug": "trocadero",
+            "name": "Trocadero"
+        },
+        {
+            "slug": "iena",
+            "name": "Iena"
+        },
+        {
+            "slug": "alma+marceau",
+            "name": "Alma-Marceau"
+        },
+        {
+            "slug": "franklin+roosevelt",
+            "name": "Franklin-Roosevelt"
+        },
+        {
+            "slug": "saint+philippe+du+roule",
+            "name": "Saint-Philippe du Roule"
+        },
+        {
+            "slug": "miromesnil",
+            "name": "Miromesnil"
+        },
+        {
+            "slug": "saint+augustin",
+            "name": "Saint-Augustin"
+        },
+        {
+            "slug": "havre+caumartin",
+            "name": "Havre-Caumartin"
+        },
+        {
+            "slug": "chaussee+d'antin+(la+fayette)",
+            "name": "Chaussee d'Antin (La Fayette)"
+        },
+        {
+            "slug": "richelieu+drouot",
+            "name": "Richelieu-Drouot"
+        },
+        {
+            "slug": "grands+boulevards",
+            "name": "Grands Boulevards"
+        },
+        {
+            "slug": "bonne+nouvelle",
+            "name": "Bonne Nouvelle"
+        },
+        {
+            "slug": "strasbourg+saint+denis",
+            "name": "Strasbourg-Saint-Denis"
+        },
+        {
+            "slug": "republique",
+            "name": "Republique"
+        },
+        {
+            "slug": "oberkampf",
+            "name": "Oberkampf"
+        },
+        {
+            "slug": "saint+ambroise",
+            "name": "Saint-Ambroise"
+        },
+        {
+            "slug": "voltaire+(leon+blum)",
+            "name": "Voltaire (Leon Blum)"
+        },
+        {
+            "slug": "charonne",
+            "name": "Charonne"
+        },
+        {
+            "slug": "rue+des+boulets",
+            "name": "Rue des Boulets"
+        },
+        {
+            "slug": "nation",
+            "name": "Nation"
+        },
+        {
+            "slug": "buzenval",
+            "name": "Buzenval"
+        },
+        {
+            "slug": "maraichers",
+            "name": "Maraichers"
+        },
+        {
+            "slug": "porte+de+montreuil",
+            "name": "Porte de Montreuil"
+        },
+        {
+            "slug": "robespierre",
+            "name": "Robespierre"
+        },
+        {
+            "slug": "croix+de+chavaux+(jacques+duclos)",
+            "name": "Croix-de-Chavaux (Jacques Duclos)"
+        },
+        {
+            "slug": "mairie+de+montreuil",
+            "name": "Mairie de Montreuil"
+        }
+    ]
+},
+{
+    "line": "10",
+    "stations": [
+        {
+            "slug": "boulogne+pont+de+saint+cloud",
+            "name": "Boulogne Pont de Saint-Cloud"
+        },
+        {
+            "slug": "boulogne+jean+jaures",
+            "name": "Boulogne-Jean-Jaures"
+        },
+        {
+            "slug": "porte+d'auteuil",
+            "name": "Porte d'Auteuil"
+        },
+        {
+            "slug": "michel+ange+molitor",
+            "name": "Michel-Ange-Molitor"
+        },
+        {
+            "slug": "chardon+lagache",
+            "name": "Chardon-Lagache"
+        },
+        {
+            "slug": "mirabeau",
+            "name": "Mirabeau"
+        },
+        {
+            "slug": "javel+andre+citroen",
+            "name": "Javel-Andre-Citroen"
+        },
+        {
+            "slug": "charles+michels",
+            "name": "Charles Michels"
+        },
+        {
+            "slug": "avenue+emile+zola",
+            "name": "Avenue Emile-Zola"
+        },
+        {
+            "slug": "la+motte+picquet+grenelle",
+            "name": "La Motte-Picquet-Grenelle"
+        },
+        {
+            "slug": "segur",
+            "name": "Segur"
+        },
+        {
+            "slug": "duroc",
+            "name": "Duroc"
+        },
+        {
+            "slug": "vaneau",
+            "name": "Vaneau"
+        },
+        {
+            "slug": "sevres+babylone",
+            "name": "Sevres-Babylone"
+        },
+        {
+            "slug": "mabillon",
+            "name": "Mabillon"
+        },
+        {
+            "slug": "odeon",
+            "name": "Odeon"
+        },
+        {
+            "slug": "cluny+la+sorbonne",
+            "name": "Cluny-La Sorbonne"
+        },
+        {
+            "slug": "maubert+mutualite",
+            "name": "Maubert-Mutualite"
+        },
+        {
+            "slug": "cardinal+lemoine",
+            "name": "Cardinal-Lemoine"
+        },
+        {
+            "slug": "jussieu",
+            "name": "Jussieu"
+        },
+        {
+            "slug": "gare+d'austerlitz",
+            "name": "Gare d'Austerlitz"
+        },
+        {
+            "slug": "eglise+d'auteuil",
+            "name": "Eglise d'Auteuil"
+        },
+        {
+            "slug": "michel+ange+auteuil",
+            "name": "Michel-Ange-Auteuil"
+        }
+    ]
+},
+{
+    "line": "11",
+    "stations": [
+        {
+            "slug": "mairie+des+lilas",
+            "name": "Mairie des Lilas"
+        },
+        {
+            "slug": "porte+des+lilas",
+            "name": "Porte des Lilas"
+        },
+        {
+            "slug": "telegraphe",
+            "name": "Telegraphe"
+        },
+        {
+            "slug": "place+des+fetes",
+            "name": "Place des Fetes"
+        },
+        {
+            "slug": "jourdain",
+            "name": "Jourdain"
+        },
+        {
+            "slug": "pyrenees",
+            "name": "Pyrenees"
+        },
+        {
+            "slug": "belleville",
+            "name": "Belleville"
+        },
+        {
+            "slug": "goncourt+(hopital+saint+louis)",
+            "name": "Goncourt (Hopital Saint-Louis)"
+        },
+        {
+            "slug": "republique",
+            "name": "Republique"
+        },
+        {
+            "slug": "arts+et+metiers",
+            "name": "Arts-et-Metiers"
+        },
+        {
+            "slug": "rambuteau",
+            "name": "Rambuteau"
+        },
+        {
+            "slug": "hotel+de+ville",
+            "name": "Hotel de Ville"
+        },
+        {
+            "slug": "chatelet",
+            "name": "Chatelet"
+        }
+    ]
+},
+{
+    "line": "12",
+    "stations": [
+        {
+            "slug": "mairie+d'issy",
+            "name": "Mairie d'Issy"
+        },
+        {
+            "slug": "corentin+celton",
+            "name": "Corentin-Celton"
+        },
+        {
+            "slug": "porte+de+versailles",
+            "name": "Porte de Versailles"
+        },
+        {
+            "slug": "convention",
+            "name": "Convention"
+        },
+        {
+            "slug": "vaugirard+(adolphe+cherioux)",
+            "name": "Vaugirard (Adolphe Cherioux)"
+        },
+        {
+            "slug": "volontaires",
+            "name": "Volontaires"
+        },
+        {
+            "slug": "pasteur",
+            "name": "Pasteur"
+        },
+        {
+            "slug": "falguiere",
+            "name": "Falguiere"
+        },
+        {
+            "slug": "montparnasse+bienvenue",
+            "name": "Montparnasse-Bienvenue"
+        },
+        {
+            "slug": "notre+dame+des+champs",
+            "name": "Notre-Dame des Champs"
+        },
+        {
+            "slug": "rennes",
+            "name": "Rennes"
+        },
+        {
+            "slug": "sevres+babylone",
+            "name": "Sevres-Babylone"
+        },
+        {
+            "slug": "rue+du+bac",
+            "name": "Rue du Bac"
+        },
+        {
+            "slug": "solferino",
+            "name": "Solferino"
+        },
+        {
+            "slug": "assemblee+nationale",
+            "name": "Assemblee Nationale"
+        },
+        {
+            "slug": "concorde",
+            "name": "Concorde"
+        },
+        {
+            "slug": "madeleine",
+            "name": "Madeleine"
+        },
+        {
+            "slug": "saint+lazare",
+            "name": "Saint-Lazare"
+        },
+        {
+            "slug": "trinite+d'estienne+d'orves",
+            "name": "Trinite-d'Estienne d'Orves"
+        },
+        {
+            "slug": "notre+dame+de+lorette",
+            "name": "Notre-Dame de Lorette"
+        },
+        {
+            "slug": "saint+georges",
+            "name": "Saint-Georges"
+        },
+        {
+            "slug": "pigalle",
+            "name": "Pigalle"
+        },
+        {
+            "slug": "abbesses",
+            "name": "Abbesses"
+        },
+        {
+            "slug": "lamarck+caulaincourt",
+            "name": "Lamarck-Caulaincourt"
+        },
+        {
+            "slug": "jules+joffrin",
+            "name": "Jules Joffrin"
+        },
+        {
+            "slug": "marcadet+poissonniers",
+            "name": "Marcadet-Poissonniers"
+        },
+        {
+            "slug": "marx+dormoy",
+            "name": "Marx-Dormoy"
+        },
+        {
+            "slug": "porte+de+la+chapelle",
+            "name": "Porte de la Chapelle"
+        },
+        {
+            "slug": "front+populaire",
+            "name": "Front Populaire"
+        }
+    ]
+},
+{
+    "line": "13",
+    "stations": [
+        {
+            "slug": "chatillon+montrouge",
+            "name": "Chatillon Montrouge"
+        },
+        {
+            "slug": "malakoff+rue+etienne+dolet",
+            "name": "Malakoff-Rue Etienne Dolet"
+        },
+        {
+            "slug": "malakoff+plateau+de+vanves",
+            "name": "Malakoff-Plateau de Vanves"
+        },
+        {
+            "slug": "porte+de+vanves",
+            "name": "Porte de Vanves"
+        },
+        {
+            "slug": "plaisance",
+            "name": "Plaisance"
+        },
+        {
+            "slug": "pernety",
+            "name": "Pernety"
+        },
+        {
+            "slug": "gaite",
+            "name": "Gaite"
+        },
+        {
+            "slug": "montparnasse+bienvenue",
+            "name": "Montparnasse-Bienvenue"
+        },
+        {
+            "slug": "duroc",
+            "name": "Duroc"
+        },
+        {
+            "slug": "saint+francois+xavier",
+            "name": "Saint-Francois-Xavier"
+        },
+        {
+            "slug": "varenne",
+            "name": "Varenne"
+        },
+        {
+            "slug": "invalides",
+            "name": "Invalides"
+        },
+        {
+            "slug": "champs+elysees+clemenceau",
+            "name": "Champs-Elysees-Clemenceau"
+        },
+        {
+            "slug": "miromesnil",
+            "name": "Miromesnil"
+        },
+        {
+            "slug": "saint+lazare",
+            "name": "Saint-Lazare"
+        },
+        {
+            "slug": "liege",
+            "name": "Liege"
+        },
+        {
+            "slug": "place+de+clichy",
+            "name": "Place de Clichy"
+        },
+        {
+            "slug": "la+fourche",
+            "name": "La Fourche"
+        },
+        {
+            "slug": "guy+moquet",
+            "name": "Guy-Moquet"
+        },
+        {
+            "slug": "porte+de+saint+ouen",
+            "name": "Porte de Saint-Ouen"
+        },
+        {
+            "slug": "garibaldi",
+            "name": "Garibaldi"
+        },
+        {
+            "slug": "mairie+de+saint+ouen",
+            "name": "Mairie de Saint-Ouen"
+        },
+        {
+            "slug": "carrefour+pleyel",
+            "name": "Carrefour-Pleyel"
+        },
+        {
+            "slug": "saint+denis+++porte+de+paris",
+            "name": "Saint-Denis - Porte de Paris"
+        },
+        {
+            "slug": "basilique+de+saint+denis",
+            "name": "Basilique de Saint-Denis"
+        },
+        {
+            "slug": "saint+denis+universite",
+            "name": "Saint-Denis-Universite"
+        },
+        {
+            "slug": "brochant",
+            "name": "Brochant"
+        },
+        {
+            "slug": "porte+de+clichy",
+            "name": "Porte de Clichy"
+        },
+        {
+            "slug": "mairie+de+clichy",
+            "name": "Mairie de Clichy"
+        },
+        {
+            "slug": "gabriel+peri",
+            "name": "Gabriel-Peri"
+        },
+        {
+            "slug": "les+agnettes",
+            "name": "Les Agnettes"
+        },
+        {
+            "slug": "asnieres+gennevilliers+les+courtilles",
+            "name": "Asnieres-Gennevilliers Les Courtilles"
+        }
+    ]
+},
+{
+    "line": "14",
+    "stations": [
+        {
+            "slug": "saint+lazare",
+            "name": "Saint-Lazare"
+        },
+        {
+            "slug": "madeleine",
+            "name": "Madeleine"
+        },
+        {
+            "slug": "pyramides",
+            "name": "Pyramides"
+        },
+        {
+            "slug": "chatelet",
+            "name": "Chatelet"
+        },
+        {
+            "slug": "gare+de+lyon",
+            "name": "Gare de Lyon"
+        },
+        {
+            "slug": "bercy",
+            "name": "Bercy"
+        },
+        {
+            "slug": "cour+saint+emilion",
+            "name": "Cour Saint-Emilion"
+        },
+        {
+            "slug": "bibliotheque+francois+mitterrand",
+            "name": "Bibliotheque-Francois Mitterrand"
+        },
+        {
+            "slug": "olympiades",
+            "name": "Olympiades"
+        }
+    ]
+}
+]

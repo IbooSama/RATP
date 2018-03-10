@@ -1,9 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RATP", "RATP\RATP.csproj", "{C9FE595D-3837-42CD-929B-0775C12FA284}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RATP.Tests", "RATP.Tests\RATP.Tests.csproj", "{27978558-0295-4BDD-BC21-CF50C974AABF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RATP", "RATP\RATP.csproj", "{90E743C3-C203-46D7-B75F-9FC83147B1CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +9,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C9FE595D-3837-42CD-929B-0775C12FA284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9FE595D-3837-42CD-929B-0775C12FA284}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9FE595D-3837-42CD-929B-0775C12FA284}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9FE595D-3837-42CD-929B-0775C12FA284}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27978558-0295-4BDD-BC21-CF50C974AABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27978558-0295-4BDD-BC21-CF50C974AABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27978558-0295-4BDD-BC21-CF50C974AABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27978558-0295-4BDD-BC21-CF50C974AABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E743C3-C203-46D7-B75F-9FC83147B1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E743C3-C203-46D7-B75F-9FC83147B1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E743C3-C203-46D7-B75F-9FC83147B1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E743C3-C203-46D7-B75F-9FC83147B1CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
