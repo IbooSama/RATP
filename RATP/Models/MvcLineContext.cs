@@ -10,5 +10,6 @@ namespace RATP.Models
         }
 
         public DbSet<RATP.Models.Line> Line { get; set; }
+        public DbSet<RATP.Models.Station> Station { get; set; }
     }
 }
