@@ -3,20 +3,14 @@ namespace RATP.Models
 {
     public class Line
     {
-        private string name;
 
-        private int id;
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Directions { get; set; }
+        public string Code { get; set; }
 
-        private int code;
-
-        private string directions;
-
-        public Line(String name, int id, int code, string directions)
+        public Line()
         {
-            this.name = name;
-            this.id = id;
-            this.code = code;
-            this.directions = directions;
         }
     }
 }
