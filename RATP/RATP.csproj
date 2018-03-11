@@ -26,5 +26,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Controllers\HelloWorldController.cs" />
+    <Compile Remove="Migrations\20180308104555_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20180308104555_InitialCreate.cs" />
+    <Compile Remove="Migrations\MvcLineContextModelSnapshot.cs" />
   </ItemGroup>
 </Project>

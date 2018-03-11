@@ -25,6 +25,7 @@ namespace RATP
 
                 try
                 {
+                    var context = services.GetRequiredService<MvcLineContext>();
                     // Requires using MvcMovie.Models;
                     SeedData.Initialize(services);
                 }

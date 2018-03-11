@@ -18,12 +18,15 @@ foreach ($metro as $lineKey => $line) {
 }
 
 foreach ($metro as $line) {
+	$count = 0;
 	foreach ($line['stations'] as $station) {
 		$output = "new Station\n{\n    Name = \"" . $station["name"]
 		. "\",\n    Latitude = " . $station["latitude"]
 		. ",\n    Longitude = " . $station["longitude"]
 		. ",\n    Line = \"" . $line['line']
+		. "\",\n    Number = \"" . $count
 		. "\"\n},\n";
+		$count++;
 		file_put_contents($outPutFile, $output, FILE_APPEND | LOCK_EX);
 	}
 }

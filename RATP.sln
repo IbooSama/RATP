@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RATP", "RATP\RATP.csproj", "{90E743C3-C203-46D7-B75F-9FC83147B1CC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1AAA9A02-CD1D-4A94-A1F8-1749468F81F5}"
+	ProjectSection(SolutionItems) = preProject
+		RATP\Migrations\20180308104555_InitialCreate.cs = RATP\Migrations\20180308104555_InitialCreate.cs
+		RATP\Migrations\20180308104555_InitialCreate.Designer.cs = RATP\Migrations\20180308104555_InitialCreate.Designer.cs
+		RATP\Migrations\MvcLineContextModelSnapshot.cs = RATP\Migrations\MvcLineContextModelSnapshot.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

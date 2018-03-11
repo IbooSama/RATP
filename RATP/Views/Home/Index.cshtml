@@ -37,6 +37,44 @@
   </div>
 </section>
 
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    LineID
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Latitude
+                </th>
+                <th>
+                    Longitude
+                </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in ViewData["shortest_path"]) {
+        <tr>
+            <td>
+                @item.LineID
+            </td>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Latitude
+            </td>
+            <td>
+                @item.Longitude
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
 <!-- Image Showcases -->
 <section class="showcase">
   <div class="container-fluid p-0">
