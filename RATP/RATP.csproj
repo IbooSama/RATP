@@ -20,5 +20,9 @@
     <Content Remove="Views\Stations\Delete.cshtml" />
     <Content Remove="Views\Stations\Details.cshtml" />
     <Content Remove="Views\Stations\Edit.cshtml" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Remove="Views\Home\About.cshtml" />
+    <Content Remove="Views\Home\Contact.cshtml" />
   </ItemGroup>
 </Project>
