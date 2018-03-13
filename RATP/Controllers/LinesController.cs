@@ -1,0 +1,152 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using RATP.Models;
+
+namespace RATP.Controllers
+{
+    public class LinesController : Controller
+    {
+        private readonly MvcRATPContext _context;
+
+        public LinesController(MvcRATPContext context)
+        {
+            _context = context;
+        }
+
+        // GET: Lines
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Line.ToListAsync());
+        }
+
+        // GET: Lines/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var line = await _context.Line
+                .SingleOrDefaultAsync(m => m.ID == id);
+            if (line == null)
+            {
+                return NotFound();
+            }
+
+            return View(line);
+        }
+
+        // GET: Lines/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Lines/Create
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("ID,Name,Code,Directions")] Line line)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(line);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(line);
+        }
+
+        // GET: Lines/Edit/5
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var line = await _context.Line.SingleOrDefaultAsync(m => m.ID == id);
+            if (line == null)
+            {
+                return NotFound();
+            }
+            return View(line);
+        }
+
+        // POST: Lines/Edit/5
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Code,Directions")] Line line)
+        {
+            if (id != line.ID)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(line);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!LineExists(line.ID))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(line);
+        }
+
+        // GET: Lines/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var line = await _context.Line
+                .SingleOrDefaultAsync(m => m.ID == id);
+            if (line == null)
+            {
+                return NotFound();
+            }
+
+            return View(line);
+        }
+
+        // POST: Lines/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var line = await _context.Line.SingleOrDefaultAsync(m => m.ID == id);
+            _context.Line.Remove(line);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool LineExists(int id)
+        {
+            return _context.Line.Any(e => e.ID == id);
+        }
+    }
+}
