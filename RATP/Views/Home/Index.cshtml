@@ -2,3 +2,20 @@
     ViewData["Title"] = "Home Page";
 }
 
+<p>@ViewData["st1"]</p>
+<p>@ViewData["st2"]</p>
+
+<table>
+    <thead>
+        <td>LineID</td>
+        <td>Name</td>
+    </thead>
+    <tbody>
+        @foreach (var item in (dynamic)ViewData["path"]){
+        <tr>
+            <td>@item.LineID</td>
+            <td>@item.Name</td>
+        </tr>
+        }
+    </tbody>
+</table>
