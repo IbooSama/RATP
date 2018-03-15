@@ -1,9 +1,29 @@
 ﻿@model ItineraryFormData
 
-@using (Html.BeginForm("FormOne", "Form", FormMethod.Post))
-{
-    @Html.TextBoxFor(m => m.DepartureTextBoxData)
-    @Html.TextBoxFor(m => m.ArrivalTextBoxData)
-
-    <input type="submit" value="Submit strongly type synchronous form" />
-}
+<div class="col-xl-9 mx-auto">
+    <h1 class="mb-5">Where would you like to go ?</h1>
+</div>
+<div class="col-xl-12 mx-auto">
+    @using (Html.BeginForm("FormOne", "Form", FormMethod.Post))
+    {
+        <div class="form-row" style="align-items:center;">
+            <div class="col-md-1 mb-2 mb-md-0 h3">
+                From
+            </div>
+            <div class="col-md-3 mb-2 mb-md-0">
+                @Html.TextBoxFor(m => m.DepartureTextBoxData, new { @class = "form-control form-control-lg" , @placeholder = "departure.."})
+            </div>
+            <div class="col-md-1 mb-2 mb-md-0 h3">
+                To
+            </div>
+            <div class="col-md-3 mb-2 mb-md-0">
+                @Html.TextBoxFor(m => m.ArrivalTextBoxData, new { @class = "form-control form-control-lg" , @placeholder = "arrival.."})
+            </div>
+            <div class="col-md-1 mb-2 mb-md-0">
+            </div>
+            <div class="col-12 col-md-3">
+                <button type="submit" class="btn btn-block btn-lg btn-primary">Take me there ! </button>
+            </div>
+        </div>
+    }
+</div>
