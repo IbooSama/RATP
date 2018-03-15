@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Result Page";
+}
+
+<ul>
+    @foreach(var x in (dynamic)ViewData["path"])
+    {
+    <li>@x.LineID - @x.Name</li>
+    }
+</ul>

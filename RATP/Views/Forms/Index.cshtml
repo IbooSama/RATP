@@ -1,0 +1,9 @@
+﻿@model ItineraryFormData
+
+@using (Html.BeginForm("FormOne", "Form", FormMethod.Post))
+{
+    @Html.TextBoxFor(m => m.DepartureTextBoxData)
+    @Html.TextBoxFor(m => m.ArrivalTextBoxData)
+
+    <input type="submit" value="Submit strongly type synchronous form" />
+}

@@ -99,6 +99,8 @@ namespace RATP.Helpers
 
             path.Add(start);
 
+            path.Reverse();
+
             return path;
         }
 

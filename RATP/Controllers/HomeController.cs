@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using RATP.Models;
 using RATP.Helpers;
+using System;
 
 namespace RATP.Controllers
 {
@@ -24,8 +22,13 @@ namespace RATP.Controllers
 
         public IActionResult Index()
         {
-            Station start = _context.Station.Where(s => s.Name == "Anvers").FirstOrDefault();
-            Station end = _context.Station.Where(s => s.Name == "Sentier").FirstOrDefault();
+            return View();
+        }
+
+        public IActionResult Result(ItineraryFormData formData)
+        {
+            Station start = _context.Station.Where(s => s.Name == formData.DepartureTextBoxData).FirstOrDefault();
+            Station end = _context.Station.Where(s => s.Name == formData.ArrivalTextBoxData).FirstOrDefault();
 
             ViewData["path"] = _dijkstraHelper.shortest_path(start, end).AsEnumerable();
 
