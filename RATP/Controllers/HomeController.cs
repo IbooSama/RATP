@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using RATP.Models;
 using RATP.Helpers;
 using System;
+using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace RATP.Controllers
 {
@@ -22,6 +24,10 @@ namespace RATP.Controllers
 
         public IActionResult Index()
         {
+            List<Station> stations = _context.Station.ToList();
+
+            ViewData["stations"] = JsonConvert.SerializeObject(stations);
+
             return View();
         }
 
