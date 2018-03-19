@@ -36,9 +36,23 @@ namespace RATP.Controllers
             Station start = _context.Station.Where(s => s.Name == formData.DepartureTextBoxData).FirstOrDefault();
             Station end = _context.Station.Where(s => s.Name == formData.ArrivalTextBoxData).FirstOrDefault();
 
-            ViewData["path"] = _dijkstraHelper.shortest_path(start, end).AsEnumerable();
+            ViewData["path"] = cleanResult(_dijkstraHelper.shortest_path(start, end)).AsEnumerable();
 
             return View();
+        }
+
+        public List<Station> cleanResult(List<Station> path)
+        {
+            int start = 0;
+            while (path[start].Name == path[start + 1].Name) {
+                start++;
+            }
+
+            for (int i = 0; i < start; i++) {
+                path.Remove(path[i]);
+            }
+
+            return path;
         }
 
         public IActionResult Error()
