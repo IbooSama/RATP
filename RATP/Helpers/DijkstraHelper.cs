@@ -16,8 +16,10 @@ namespace RATP.Helpers
             _context = context;
         }
 
-        public List<Station> shortest_path(Station start, Station finish)
+        public List<Station> shortest_path(Station start, Station finish, List<Station> stations)
         {
+            Dictionary<Station, List<Station>> mappedStations = mapConnections(stations);
+
             // id => [id, id, id...]
             var previous = new Dictionary<Station, Station>();
             // id => [distance, distance, distance...]
@@ -28,11 +30,9 @@ namespace RATP.Helpers
             // [id, id, id, id...]
             List<Station> path = null;
 
-            List<Station> vertices = _context.Station.ToList();
-
             // Add all vertices (summits or stations) to the List nodes
             // Initialize distances to +infinites except for the start vertex
-            foreach (var vertex in vertices)
+            foreach (var vertex in mappedStations.Keys)
             {
                 if (vertex == start)
                 {
@@ -74,13 +74,13 @@ namespace RATP.Helpers
                     break;
                 }
 
-                Station smallestStation = _context.Station.Where(s => (s.ID == smallest.ID)).FirstOrDefault();
-                List<Station> neighbors = getConnections(smallestStation);
+                Station smallestStation = mappedStations.Keys.Where(s => (s.ID == smallest.ID)).FirstOrDefault();
+                List<Station> neighbors = mappedStations[smallestStation];
 
                 // Update the weighs depending on the connections
                 foreach (var neighbor in neighbors)
                 {
-                    Station neighborStation = _context.Station.Where(s => (s.ID == neighbor.ID)).FirstOrDefault();
+                    Station neighborStation = mappedStations.Keys.Where(s => (s.ID == neighbor.ID)).FirstOrDefault();
 
                     int neighborWeigh = 1;
                     if (neighborStation.LineID != smallestStation.LineID)
@@ -104,25 +104,36 @@ namespace RATP.Helpers
             return path;
         }
 
-        private List<Station> getConnections(Station station)
+        private Dictionary<Station, List<Station>> mapConnections(List<Station> stations)
+        {
+            Dictionary<Station, List<Station>> mappedStations = new Dictionary<Station, List<Station>>();
+
+            foreach (var station in stations) {
+                mappedStations[station] = getConnections(station, stations);
+            }
+
+            return mappedStations;
+        }
+
+        private List<Station> getConnections(Station station, List<Station> stations)
         {
             List<Station> connections = new List<Station>();
 
-            Station previous = _context.Station.Where(s => (s.Number == (station.Number - 1) && s.LineID == station.LineID)).FirstOrDefault();
+            Station previous = stations.Where(s => (s.Number == (station.Number - 1) && s.LineID == station.LineID)).FirstOrDefault();
             if (previous != null)
             {
                 connections.Add(previous);
             }
 
-            Station next = _context.Station.Where(s => (s.Number == (station.Number + 1) && s.LineID == station.LineID)).FirstOrDefault();
+            Station next = stations.Where(s => (s.Number == (station.Number + 1) && s.LineID == station.LineID)).FirstOrDefault();
             if (next != null)
             {
                 connections.Add(next);
             }
 
-            foreach (var correspondance in _context.Station.Where(s => s.Name == station.Name && s.LineID != station.LineID))
+            foreach (var correspondance in stations.Where(s => s.Name == station.Name && s.LineID != station.LineID))
             {
-                Station correspStation = _context.Station.Where(s => s.ID == correspondance.ID).FirstOrDefault();
+                Station correspStation = stations.Where(s => s.ID == correspondance.ID).FirstOrDefault();
                 if (correspStation != null)
                 {
                     connections.Add(correspStation);

@@ -33,10 +33,12 @@ namespace RATP.Controllers
 
         public IActionResult Result(ItineraryFormData formData)
         {
-            Station start = _context.Station.Where(s => s.Name == formData.DepartureTextBoxData).FirstOrDefault();
-            Station end = _context.Station.Where(s => s.Name == formData.ArrivalTextBoxData).FirstOrDefault();
+            List<Station> stations = _context.Station.ToList();
 
-            ViewData["path"] = cleanResult(_dijkstraHelper.shortest_path(start, end)).AsEnumerable();
+            Station start = stations.Where(s => s.Name == formData.DepartureTextBoxData).FirstOrDefault();
+            Station end = stations.Where(s => s.Name == formData.ArrivalTextBoxData).FirstOrDefault();
+
+            ViewData["path"] = cleanResult(_dijkstraHelper.shortest_path(start, end, stations)).AsEnumerable();
 
             return View();
         }
