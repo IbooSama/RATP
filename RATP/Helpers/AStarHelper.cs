@@ -18,7 +18,7 @@ namespace RATP.Helpers
             // Station => distance
             Dictionary<Station, int> distances = new Dictionary<Station, int>();
             // Station => distanceToEnd
-            Dictionary<Station, double> straightDistancesToEnd = this.getStationsStraightDistancesToEnd(stations, finish);
+            Dictionary<Station, double> straightDistancesToEnd = getStationsStraightDistancesToEnd(stations, finish);
             // [Station, Station, Station, Station...]
             List<Station> nodes = new List<Station>();
             // [Station, Station, Station, Station...]
@@ -47,7 +47,7 @@ namespace RATP.Helpers
                 nodes = nodes.OrderBy(x => distances[x] + straightDistancesToEnd[x]).ToList();
 
                 var smallest = nodes[0];
-                Console.WriteLine("Processing station : " + smallest.Name);
+
                 nodes.Remove(smallest);
 
                 // Once we reached the end station, we store the smallest values and its previous stations in the path variable.
@@ -64,7 +64,6 @@ namespace RATP.Helpers
 
                 if (distances[smallest] == int.MaxValue)
                 {
-                    Console.WriteLine("Breaking at : " + smallest.Name);
                     break;
                 }
 
@@ -103,7 +102,9 @@ namespace RATP.Helpers
             Dictionary<Station, double> distances = new Dictionary<Station, double>();
             foreach (var station in stations) {
                 double distance = Math.Sqrt(Math.Pow((end.Longitude - station.Longitude), 2) + Math.Pow((end.Latitude - station.Latitude), 2));
+                distances[station] = distance;
             }
+
             return distances;
         }
 
@@ -142,11 +143,6 @@ namespace RATP.Helpers
                 {
                     connections.Add(correspStation);
                 }
-            }
-            Console.WriteLine(station.Name + " has as connections : ");
-            foreach (var connection in connections)
-            {
-                Console.WriteLine(" - " + connection.Name);
             }
             return connections;
         }

@@ -38,7 +38,6 @@ namespace RATP.Helpers
 
                 nodes.Add(vertex);
             }
-            Console.WriteLine(nodes.Count + " stations were indexed.");
 
             // We unstack vertices one by one
             while (nodes.Count != 0)
@@ -47,7 +46,7 @@ namespace RATP.Helpers
                // nodes.Sort((x, y) => distances[x] - distances[y]);
 
                 var smallest = nodes[0];
-                Console.WriteLine("Processing station : " + smallest.Name);
+
                 nodes.Remove(smallest);
 
                 // Once we reached the end station, we store the smallest values and its previous stations in the path variable.
@@ -64,7 +63,6 @@ namespace RATP.Helpers
 
                 if (distances[smallest] == int.MaxValue)
                 {
-                    Console.WriteLine("Breaking at : " + smallest.Name);
                     break;
                 }
 
@@ -132,11 +130,6 @@ namespace RATP.Helpers
                 {
                     connections.Add(correspStation);
                 }
-            }
-            Console.WriteLine(station.Name + " has as connections : ");
-            foreach (var connection in connections)
-            {
-                Console.WriteLine(" - " + connection.Name);
             }
             return connections;
         }

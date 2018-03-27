@@ -4,7 +4,7 @@
 
 <div class="container">
     <div class="row">
-        <ul class="list-group col-8">
+        <ul class="list-group col-4">
             @foreach(var x in (dynamic)ViewData["path"])
             {
             <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -13,7 +13,9 @@
             </li>
             }
         </ul>
+        <div class="col-8">
+            @Html.Partial("ResultMap", ViewData["jsonPath"])
+        </div>
     </div>
 </div>
 
-@Html.Partial("ResultMap", ViewData["jsonPath"])
