@@ -19,4 +19,3 @@
 /Users/kratos/ESILV/RATP/RATP/obj/Debug/netcoreapp2.0/RATP.AssemblyInfo.cs
 /Users/kratos/ESILV/RATP/RATP/obj/Debug/netcoreapp2.0/RATP.dll
 /Users/kratos/ESILV/RATP/RATP/obj/Debug/netcoreapp2.0/RATP.pdb
-/Users/kratos/ESILV/RATP/RATP/obj/Debug/netcoreapp2.0/RATP.csprojResolveAssemblyReference.cache

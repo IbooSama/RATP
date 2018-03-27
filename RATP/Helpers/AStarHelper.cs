@@ -6,21 +6,22 @@ using System.Linq;
 
 namespace RATP.Helpers
 {
-    public class DijkstraHelper
+    public class AStarHelper
     {
-
+        
         public List<Station> shortest_path(Station start, Station finish, List<Station> stations)
         {
             Dictionary<Station, List<Station>> mappedStations = mapConnections(stations);
 
-            // id => [id, id, id...]
-            var previous = new Dictionary<Station, Station>();
-            // id => [distance, distance, distance...]
-            var distances = new Dictionary<Station, int>();
-            // [id, id, id, id...]
-            var nodes = new List<Station>();
-
-            // [id, id, id, id...]
+            // Station => Station
+            Dictionary<Station, Station> previous = new Dictionary<Station, Station>();
+            // Station => distance
+            Dictionary<Station, int> distances = new Dictionary<Station, int>();
+            // Station => distanceToEnd
+            Dictionary<Station, double> straightDistancesToEnd = this.getStationsStraightDistancesToEnd(stations, finish);
+            // [Station, Station, Station, Station...]
+            List<Station> nodes = new List<Station>();
+            // [Station, Station, Station, Station...]
             List<Station> path = null;
 
             // Add all vertices (summits or stations) to the List nodes
@@ -43,8 +44,7 @@ namespace RATP.Helpers
             // We unstack vertices one by one
             while (nodes.Count != 0)
             {
-                nodes = nodes.OrderBy(x => distances[x]).ToList();
-               // nodes.Sort((x, y) => distances[x] - distances[y]);
+                nodes = nodes.OrderBy(x => distances[x] + straightDistancesToEnd[x]).ToList();
 
                 var smallest = nodes[0];
                 Console.WriteLine("Processing station : " + smallest.Name);
@@ -98,11 +98,21 @@ namespace RATP.Helpers
             return path;
         }
 
+        private Dictionary<Station, double> getStationsStraightDistancesToEnd(List<Station> stations, Station end)
+        {
+            Dictionary<Station, double> distances = new Dictionary<Station, double>();
+            foreach (var station in stations) {
+                double distance = Math.Sqrt(Math.Pow((end.Longitude - station.Longitude), 2) + Math.Pow((end.Latitude - station.Latitude), 2));
+            }
+            return distances;
+        }
+
         private Dictionary<Station, List<Station>> mapConnections(List<Station> stations)
         {
             Dictionary<Station, List<Station>> mappedStations = new Dictionary<Station, List<Station>>();
 
-            foreach (var station in stations) {
+            foreach (var station in stations)
+            {
                 mappedStations[station] = getConnections(station, stations);
             }
 
@@ -140,5 +150,6 @@ namespace RATP.Helpers
             }
             return connections;
         }
+
     }
 }

@@ -16,10 +16,13 @@ namespace RATP.Controllers
 
         private readonly DijkstraHelper _dijkstraHelper;
 
+        private readonly AStarHelper _aStarHelper;
+
         public HomeController(MvcRATPContext context)
         {
             _context = context;
-            _dijkstraHelper = new DijkstraHelper(context);
+            _dijkstraHelper = new DijkstraHelper();
+            _aStarHelper = new AStarHelper();
         }
 
         public IActionResult Index()
@@ -38,7 +41,8 @@ namespace RATP.Controllers
             Station start = stations.Where(s => s.Name == formData.DepartureTextBoxData).FirstOrDefault();
             Station end = stations.Where(s => s.Name == formData.ArrivalTextBoxData).FirstOrDefault();
 
-            List<Station> cleanPath = cleanResult(_dijkstraHelper.shortest_path(start, end, stations));
+            List<Station> cleanPath = cleanResult(_aStarHelper.shortest_path(start, end, stations));
+            //List<Station> cleanPath = cleanResult(_dijkstraHelper.shortest_path(start, end, stations));
 
             ViewData["path"] = cleanPath.AsEnumerable();
             ViewData["jsonPath"] = JsonConvert.SerializeObject(cleanPath);
