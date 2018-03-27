@@ -1,24 +1,13 @@
 ﻿<div id='map' style='width: 100%; height: 500px;'></div>
 <script>
-    var stations = @Html.Raw(ViewData["path"]);
-    var points = [];
+    var stations = @Html.Raw(ViewData["jsonPath"]);
+    var lines = [];
 
     stations.forEach(function(station) {
-        var point = {
-            type: "",
-            geometry: {
-                type: "",
-                coordinates: []
-            },
-            properties: {
-                icon: ""
-            }
-        };
-        point.type = "Feature";
-        point.geometry.type = "Point";
-        point.geometry.coordinates = [station.Longitude, station.Latitude];
-        point.properties.icon = "circle-stroked";
-        points.push(point);
+        if (typeof lines[station.LineID] == 'undefined') {
+            lines[station.LineID] = [];
+        }
+        lines[station.LineID].push([station.Longitude, station.Latitude]);
     });
 
     mapboxgl.accessToken = 'pk.eyJ1IjoiY3Zlcm5lcmllIiwiYSI6ImNqZXNuY2hxZzB1NngzMm1ybnRsZ3RlZGIifQ.7e86RTnhVOvzrJDMG8VbnQ';
@@ -30,23 +19,89 @@
     });
 
     map.on('load', function () {
-        map.addLayer({
-        "id": "points",
-        "type": "symbol",
-        "source": {
-            "type": "geojson",
-            "data": {
-                "type": "FeatureCollection",
-                "features": points
-            }
-        },
-        "layout": {
-            "icon-image": "{icon}-11",
-            "text-field": "{title}",
-            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-            "text-offset": [0, 0.6],
-            "text-anchor": "top"
+        var id = 0;
+        for(var lineID in lines) {
+            console.log(lineID);
+            console.log(lines[lineID]);
+            map.addLayer({
+                "id": "route-" + lineID,
+                "type": "line",
+                "source": {
+                    "type": "geojson",
+                    "data": {
+                        "type": "Feature",
+                        "properties": {},
+                        "geometry": {
+                            "type": "LineString",
+                            "coordinates": lines[lineID]
+                        }
+                    }
+                },
+                "layout": {
+                    "line-join": "round",
+                    "line-cap": "round"
+                },
+                "paint": {
+                    "line-color": getColor(lineID),
+                    "line-width": 8
+                }
+            });
+        };
+    });
+
+    function getColor(lineID) {
+        switch(lineID) {
+            case '1':
+                return '#FFCD00';
+                break;
+            case '2':
+                return '#003CA6';
+                break;
+            case '3':
+                return '#837902';
+                break;
+            case '4':
+                return '#CF009E';
+                break;
+            case '5':
+                return '#FF7E2E';
+                break;
+            case '6':
+                return '#6ECA97';
+                break;
+            case '7':
+                return '#FA9ABA';
+                break;
+            case '7b':
+                return '#6ECA97';
+                break;
+            case '8':
+                return '#E19BDF';
+                break;
+            case '9':
+                return '#B6BD00';
+                break;
+            case '10':
+                return '#C9910D';
+                break;
+            case '11':
+                return '#704B1C';
+                break;
+            case '12':
+                return '#007852';
+                break;
+            case '13':
+                return '#6EC4E8';
+                break;
+            case '14':
+                return '#62259D';
+                break;
+            
+            
+
+            default:
+                console.log("Line color not found")
+                return '#FFCCDD'
         }
-    });
-    });
+    }
 </script>

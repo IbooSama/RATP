@@ -38,7 +38,10 @@ namespace RATP.Controllers
             Station start = stations.Where(s => s.Name == formData.DepartureTextBoxData).FirstOrDefault();
             Station end = stations.Where(s => s.Name == formData.ArrivalTextBoxData).FirstOrDefault();
 
-            ViewData["path"] = cleanResult(_dijkstraHelper.shortest_path(start, end, stations)).AsEnumerable();
+            List<Station> cleanPath = cleanResult(_dijkstraHelper.shortest_path(start, end, stations));
+
+            ViewData["path"] = cleanPath.AsEnumerable();
+            ViewData["jsonPath"] = JsonConvert.SerializeObject(cleanPath);
 
             return View();
         }
