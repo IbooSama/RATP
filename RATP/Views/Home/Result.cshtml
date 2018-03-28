@@ -5,13 +5,29 @@
 <div class="container">
     <div class="row">
         <ul class="list-group col-4">
+            @{int i = 0;}
+            @{Station previous = null;}
             @foreach(var x in (dynamic)ViewData["path"])
             {
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                @x.Name
-                <span class="badge badge-primary badge-pill">@x.LineID</span>
-            </li>
+                if (i == 0 || (previous != null && x.LineID != previous.LineID))
+                {
+                    <li class="list-group-item d-flex justify-content-between align-items-center">  
+                        Take <b>line @x.LineID</b> at <b>@x.Name</b>
+                        <span class="badge badge-primary badge-pill">@x.LineID</span>
+                    </li>
+                }
+                else
+                {
+                    <li class="list-group-item-secondary disabled d-flex justify-content-between align-items-center">  
+                        @x.Name
+                    </li>
+                }
+                i++; 
+                previous = x;
             }
+            <li class="list-group-item d-flex align-items-center">  
+                You're arrived !
+            </li>
         </ul>
         <div class="col-8">
             @Html.Partial("ResultMap", ViewData["jsonPath"])
